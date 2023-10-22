@@ -1,0 +1,6 @@
+{"testCaseName":"Test Cases/Common/Open Browser","testCaseId":"Test Cases/Common/Open Browser","iterationVariableName":""}
+{"testCaseName":"Test Cases/Common/Navigate to url","testCaseId":"Test Cases/Common/Navigate to url","iterationVariableName":""}
+{"testCaseName":"Test Cases/Page_Login/Login with valid credentials","testCaseId":"Test Cases/Page_Login/Login with valid credentials","iterationVariableName":""}
+{"testCaseName":"Test Cases/Page_Inventory/Add to cart","testCaseId":"Test Cases/Page_Inventory/Add to cart","iterationVariableName":""}
+{"testCaseName":"Test Cases/Page_Inventory/Move to cart page","testCaseId":"Test Cases/Page_Inventory/Move to cart page","iterationVariableName":""}
+{"testCaseName":"Test Cases/Page_Cart/Remove Product","testCaseId":"Test Cases/Page_Cart/Remove Product","iterationVariableName":""}

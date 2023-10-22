@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login with invalid username,Firefox 118.0,,,2023-10-22 19:43:53,2023-10-22 19:44:25,32.218s,FAILED
+,,,,,,,
+Test Cases/Common/Open Browser,Firefox 118.0,,,2023-10-22 19:43:53,2023-10-22 19:43:59,6.517s,PASSED
+"openBrowser("""")",Firefox 118.0,,,2023-10-22 19:43:53,2023-10-22 19:43:59,6.231s,PASSED
+maximizeWindow(),Firefox 118.0,,,2023-10-22 19:43:59,2023-10-22 19:43:59,0.027s,PASSED
+,,,,,,,
+Test Cases/Common/Navigate to url,Firefox 118.0,,,2023-10-22 19:43:59,2023-10-22 19:44:03,3.815s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Firefox 118.0,,,2023-10-22 19:43:59,2023-10-22 19:44:02,2.180s,PASSED
+delay(1),Firefox 118.0,,,2023-10-22 19:44:02,2023-10-22 19:44:03,1.020s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Login/input_Swag Labs_login-button""))",Firefox 118.0,,,2023-10-22 19:44:03,2023-10-22 19:44:03,0.405s,PASSED
+,,,,,,,
+Test Cases/Page_Login/Login with invalid username,Firefox 118.0,,,2023-10-22 19:44:03,2023-10-22 19:44:25,21.673s,FAILED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Login/input_Swag Labs_login-button""))",Firefox 118.0,,,2023-10-22 19:44:03,2023-10-22 19:44:04,0.336s,PASSED
+"setText(findTestObject(""Page_Login/input_Swag Labs_user-name""), ValidUsername)",Firefox 118.0,,,2023-10-22 19:44:04,2023-10-22 19:44:04,0.756s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login/input_Swag Labs_password""), ValidUsername)",Firefox 118.0,,,2023-10-22 19:44:04,2023-10-22 19:44:05,0.730s,PASSED
+"click(findTestObject(""Object Repository/Page_Login/input_Swag Labs_login-button""))",Firefox 118.0,,,2023-10-22 19:44:05,2023-10-22 19:44:06,0.742s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Login/Error message""))",Firefox 118.0,,,2023-10-22 19:44:06,2023-10-22 19:44:25,18.905s,FAILED

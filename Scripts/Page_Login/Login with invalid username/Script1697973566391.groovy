@@ -19,9 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Login/input_Swag Labs_login-button'))
 
-WebUI.setText(findTestObject('Page_Login/input_Swag Labs_user-name'), GlobalVariable.ValidUsername)
+WebUI.setText(findTestObject('Page_Login/input_Swag Labs_user-name'), GlobalVariable.InvalidUsername)
 
-WebUI.setText(findTestObject('Object Repository/Page_Login/input_Swag Labs_password'), GlobalVariable.ValidUsername)
+WebUI.setText(findTestObject('Object Repository/Page_Login/input_Swag Labs_password'), GlobalVariable.ValidPassword)
 
 WebUI.click(findTestObject('Object Repository/Page_Login/input_Swag Labs_login-button'))
 
