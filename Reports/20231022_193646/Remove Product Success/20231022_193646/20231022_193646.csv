@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Remove Product Success,Firefox 118.0,,,2023-10-22 19:36:56,2023-10-22 19:37:16,19.871s,PASSED
+,,,,,,,
+Test Cases/Common/Open Browser,Firefox 118.0,,,2023-10-22 19:36:56,2023-10-22 19:37:03,6.200s,PASSED
+"openBrowser("""")",Firefox 118.0,,,2023-10-22 19:36:57,2023-10-22 19:37:03,5.934s,PASSED
+maximizeWindow(),Firefox 118.0,,,2023-10-22 19:37:03,2023-10-22 19:37:03,0.027s,PASSED
+,,,,,,,
+Test Cases/Common/Navigate to url,Firefox 118.0,,,2023-10-22 19:37:03,2023-10-22 19:37:09,6.656s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Firefox 118.0,,,2023-10-22 19:37:03,2023-10-22 19:37:08,4.938s,PASSED
+delay(1),Firefox 118.0,,,2023-10-22 19:37:08,2023-10-22 19:37:09,1.025s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Login/input_Swag Labs_login-button""))",Firefox 118.0,,,2023-10-22 19:37:09,2023-10-22 19:37:09,0.477s,PASSED
+,,,,,,,
+Test Cases/Page_Login/Login with valid credentials,Firefox 118.0,,,2023-10-22 19:37:09,2023-10-22 19:37:12,2.746s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Login/input_Swag Labs_login-button""))",Firefox 118.0,,,2023-10-22 19:37:09,2023-10-22 19:37:10,0.319s,PASSED
+"setText(findTestObject(""Page_Login/input_Swag Labs_user-name""), ValidUsername)",Firefox 118.0,,,2023-10-22 19:37:10,2023-10-22 19:37:10,0.742s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login/input_Swag Labs_password""), ValidPassword)",Firefox 118.0,,,2023-10-22 19:37:10,2023-10-22 19:37:11,0.840s,PASSED
+"click(findTestObject(""Object Repository/Page_Login/input_Swag Labs_login-button""))",Firefox 118.0,,,2023-10-22 19:37:11,2023-10-22 19:37:12,0.657s,PASSED
+,,,,,,,
+Test Cases/Page_Inventory/Add to cart,Firefox 118.0,,,2023-10-22 19:37:12,2023-10-22 19:37:14,1.592s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Inventory/button_Add to cart""))",Firefox 118.0,,,2023-10-22 19:37:12,2023-10-22 19:37:13,0.545s,PASSED
+"click(findTestObject(""Object Repository/Page_Inventory/button_Add to cart""))",Firefox 118.0,,,2023-10-22 19:37:13,2023-10-22 19:37:13,0.523s,PASSED
+"cart = getText(findTestObject(""Object Repository/Page_Inventory/total_cart""))",Firefox 118.0,,,2023-10-22 19:37:13,2023-10-22 19:37:14,0.316s,PASSED
+"Assert.assertEquals(""1"", cart)",Firefox 118.0,,,2023-10-22 19:37:14,2023-10-22 19:37:14,0.005s,PASSED
+,,,,,,,
+Test Cases/Page_Inventory/Move to cart page,Firefox 118.0,,,2023-10-22 19:37:14,2023-10-22 19:37:15,1.018s,PASSED
+"click(findTestObject(""Object Repository/Page_Inventory/Shopping cart""))",Firefox 118.0,,,2023-10-22 19:37:14,2023-10-22 19:37:14,0.541s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Cart/button_Checkout""))",Firefox 118.0,,,2023-10-22 19:37:14,2023-10-22 19:37:15,0.305s,PASSED
+,,,,,,,
+Test Cases/Page_Cart/Remove Product,Firefox 118.0,,,2023-10-22 19:37:15,2023-10-22 19:37:16,1.457s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Cart/button_Checkout""))",Firefox 118.0,,,2023-10-22 19:37:15,2023-10-22 19:37:15,0.312s,PASSED
+"click(findTestObject(""Object Repository/Page_Cart/button_Remove""))",Firefox 118.0,,,2023-10-22 19:37:15,2023-10-22 19:37:16,0.522s,PASSED
+"verifyElementNotPresent(findTestObject(""Object Repository/Page_Inventory/total_cart""), 1)",Firefox 118.0,,,2023-10-22 19:37:16,2023-10-22 19:37:16,0.430s,PASSED

@@ -12,6 +12,20 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>21d8de58-3f64-44ed-a750-4231a0cbd965</testSuiteGuid>
    <testCaseLink>
+      <guid>d57870b5-12c3-4672-a29a-2ed05f2e4ec5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Common/Open Browser</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>50666ce0-4de5-487a-a6ad-c9215eb99d81</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Common/Navigate to url</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>826d0f86-4f43-48e4-b01c-13a80fa0b4d0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -23,6 +37,13 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Page_Inventory/Add to cart</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>004dc508-14db-4779-8a80-a652bb9eb000</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Page_Inventory/Move to cart page</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

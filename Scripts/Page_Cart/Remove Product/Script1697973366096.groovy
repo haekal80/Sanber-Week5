@@ -21,4 +21,4 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Cart/button_Ch
 
 WebUI.click(findTestObject('Object Repository/Page_Cart/button_Remove'))
 
-WebUI.verifyElementNotVisible(findTestObject('Object Repository/Page_Inventory/total_cart'))
+WebUI.verifyElementNotPresent(findTestObject('Object Repository/Page_Inventory/total_cart'), 1)
