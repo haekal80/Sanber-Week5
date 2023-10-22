@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Checkout Product Success,,,,2023-10-22 18:23:37,2023-10-22 18:23:39,1.457s,FAILED
+,,,,,,,
+Test Cases/Page_Login/Login with valid credentials,,,,2023-10-22 18:23:38,2023-10-22 18:23:38,0.637s,FAILED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Login/input_Swag Labs_login-button""))",,,,2023-10-22 18:23:38,2023-10-22 18:23:38,0.268s,FAILED
+,,,,,,,
+Test Cases/Page_Inventory/Add to cart,,,,2023-10-22 18:23:38,2023-10-22 18:23:39,0.318s,FAILED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Inventory/button_Add to cart""))",,,,2023-10-22 18:23:39,2023-10-22 18:23:39,0.053s,FAILED
+,,,,,,,
+Test Cases/Page_Cart/Checkout Product,,,,2023-10-22 18:23:39,2023-10-22 18:23:39,0.255s,FAILED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Cart/button_Checkout""))",,,,2023-10-22 18:23:39,2023-10-22 18:23:39,0.040s,FAILED

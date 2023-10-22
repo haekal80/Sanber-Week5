@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login Success,,,,2023-10-22 18:46:18,2023-10-22 18:46:19,0.725s,FAILED
+,,,,,,,
+Test Cases/Page_Login/Login with valid credentials,,,,2023-10-22 18:46:18,2023-10-22 18:46:19,0.541s,FAILED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Login/input_Swag Labs_login-button""))",,,,2023-10-22 18:46:19,2023-10-22 18:46:19,0.279s,FAILED
